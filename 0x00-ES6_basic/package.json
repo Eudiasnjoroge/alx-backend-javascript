@@ -1,0 +1,30 @@
+{
+  "name": "0x00-es6_basic",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A project covering basic ES6 concepts using Babel, Jest, and ESLint",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "babel-node"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "alx-backend-javascript"
+  },
+  "keywords": [
+    "ES6",
+    "Babel",
+    "Jest",
+    "ESLint"
+  ],
+  "author": "Eudiasnjoroge",
+  "license": "MIT"
+}
