@@ -6,13 +6,14 @@
   "type": "module",
   "scripts": {
     "test": "jest",
-    "dev": "node --require @babel/register"
+    "dev": "npx babel-node"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.26.10",
+    "@babel/node": "^7.26.0",
     "@babel/preset-env": "^7.26.9",
     "@eslint/js": "^9.24.0",
     "babel-jest": "^29.7.0",
