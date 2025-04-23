@@ -1,0 +1,24 @@
+{
+  "name": "es6-data-manipulation",
+  "version": "1.0.0",
+  "description": "Project on ES6 data manipulation",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "dev": "npx babel-node",
+    "full-test": "npm run lint && npm run test"
+  },
+  "author": "Eudias Njoroge",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.21.0",
+    "@babel/preset-env": "^7.21.0",
+    "babel-jest": "^24.9.0",
+    "eslint": "^7.32.0",
+    "jest": "^24.9.0"
+  },
+  "type": "module"
+}
